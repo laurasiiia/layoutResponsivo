@@ -1,0 +1,37 @@
+/* REM é uma unidade de medida que utiliza o maior elemento hierárquico (html) como base de tamanho. ou seja, se alterarmos o font-size do elemento html, todos os paddings, margins e outros elementos que utilizam REM irao mudar de tamanho proporcionamente. REM e EM unidades escaláveis ​​e relativas de tamanho, mas com em, a unidade é relativa ao tamanho da fonte de seu elemento pai, enquanto a unidade rem é apenas relativa ao tamanho da fonte raiz do documento HTML. O “r” em rem significa “raiz”. EM é efemero, ou seja, relativo */
+
+.cabecalho {
+    color: var(--branco);
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
+
+    position: absolute;
+}
+
+.cabecalho__logo {
+    margin-bottom: 1rem;
+}
+
+.cabecalho__navegacao {
+    text-align: center;
+}
+
+.cabecalho__link {
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+}
