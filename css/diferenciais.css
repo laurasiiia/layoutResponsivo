@@ -17,7 +17,7 @@
     padding: 2rem 0 2rem 5rem;
 }
 
-.diferenciais_item--tempo {
+.diferenciais__item--tempo {
     background-image: url(../img/icone-relogio.png);
 }
 
@@ -39,4 +39,13 @@
 
 .item__texto {
     line-height: normal;
+}
+
+@media screen and (min-width: 1024px) {
+    .diferenciais {
+        background-color: var(--cinza-claro);
+    }
+    .diferenciais__lista {
+        justify-content: space-around;
+    }
 }
